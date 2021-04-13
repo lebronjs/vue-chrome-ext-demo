@@ -5,9 +5,12 @@
   "description": "A Vue Browser Extension",
   "default_locale": "en",
   "permissions": [
+    "storage",
     "activeTab",
     "declarativeContent",
     "contextMenus",
+    "notifications",
+    "tabs",
     "<all_urls>",
     "*://*/*"
   ],

@@ -26,6 +26,11 @@ module.exports = {
       entry: './src/devtools/main.js',
       title: 'Devtools',
     },
+    devtools: {
+      template: 'public/browser-extension.html',
+      entry: './src/panel/main.js',
+      title: 'Panel',
+    },
   },
   pluginOptions: {
     browserExtension: {
