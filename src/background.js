@@ -65,7 +65,6 @@ chrome.runtime.onInstalled.addListener(function () {
     parentId: 'a',
   });
 });
-
 // chrome.contextMenus.onClicked.addListener(function (info, tab) {
 //   console.log(info);
 //   if (info.menuItemId === 'bd') {
